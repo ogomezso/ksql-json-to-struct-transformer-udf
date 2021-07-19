@@ -1,0 +1,436 @@
+{
+  "version": "1-1",
+  "documentProperties": {
+    "producedBy": {
+      "partyName": "NORDLB HANNOVER",
+      "user": {
+        "name": "MUREXBO",
+        "group": "BO",
+        "code": "Technik"
+      }
+    },
+    "systemDate": "20210706",
+    "accountingDate": "00000000",
+    "computerDate": "20210706",
+    "computerTime": "11:38:28"
+  },
+  "contracts": {
+    "contract": {
+      "id": "contract_11301249",
+      "mefClass": "mxContractFxISWAP",
+      "mefClassInstanceType": "0.000000",
+      "mefClassInstanceLabel": "FX swap",
+      "businessObjectId": {
+        "mefClass": "mxContractFxISWAP",
+        "identifier": "11301249",
+        "baseIdentifier": "11301249",
+        "versionIdentifier": {
+          "versionRevision": {
+            "versionNumber": "1",
+            "versionDateAndTime": {
+              "date": "00000000"
+            }
+          }
+        },
+        "primarySystem": "MX"
+      },
+      "contractId": {
+        "internalId": "11301249",
+        "rootContract": "11301249"
+      },
+      "regulatoryInformation": {
+        "regulatoryIdentifiers": {
+          "partyTradeIdentifier": {
+            "issuer": null,
+            "tradeId": null
+          },
+          "centralCounterpartyId": null
+        },
+        "clearingEligibility": "false",
+        "clearingMandatory": "false",
+        "clearingDecision": "false",
+        "nettingEligibility": {
+          "customized": "false",
+          "": "false"
+        }
+      },
+      "contractBusinessObjectTemplate": {
+        "businessObjectId": {
+          "identifier": "0",
+          "displayLabel": null
+        }
+      },
+      "contractHeader": {
+        "collateralAgreement": {
+          "excludeFromPool": "false"
+        },
+        "contractCategory": {
+          "typology": "FX Swap",
+          "mainTypologyPath": "/Typologies/FX/FX Swap",
+          "usage": null,
+          "onshoreOffshore": "NONE",
+          "collateralAgreementCategory": null,
+          "pricingCounterparty": null
+        },
+        "contractAgreements": {
+          "settlementMethod": null
+        },
+        "contractSource": {
+          "sourceSystem": "Theoretical",
+          "sourceModule": "mx",
+          "originPublishingSystem": "MX",
+          "publishingSystem": "MX",
+          "packageReference": {
+            "mefClass": ""
+          },
+          "contractEventReference": {
+            "mefClass": "",
+            "contractEventId": {
+              "internalId": "0"
+            }
+          },
+          "contractCreatorReference": {
+            "mefClass": ""
+          },
+          "contractOriginReference": {
+            "mefClass": "mxContractFxISWAP",
+            "businessObjectId": {
+              "mefClass": "mxContractFxISWAP",
+              "mefClassInstanceType": "0",
+              "identifier": "11301249",
+              "primarySystem": "MX"
+            },
+            "contractId": {
+              "internalId": "11301249",
+              "rootContract": "11301249"
+            }
+          },
+          "version": "1",
+          "lastContractEventReference": {
+            "mefClass": "",
+            "contractEventId": {
+              "internalId": "0"
+            }
+          },
+          "lastContractEventAction": "INSERT",
+          "originContractEventReference": {
+            "mefClass": "",
+            "contractEventId": {
+              "internalId": "0"
+            }
+          },
+          "originDate": "20200402",
+          "workflowParties": {
+            "wopInitiator": {
+              "role": null,
+              "name": "RIED",
+              "group": "FO_FX_TRD"
+            },
+            "wopLastActor": {
+              "role": null,
+              "name": "RIED",
+              "group": "FO_FX_TRD"
+            },
+            "wopInternalTrader": {
+              "name": null,
+              "group": null
+            },
+            "wopInternalPortfolio": {
+              "wopIsBackToBack": "N"
+            },
+            "wopParties": null
+          }
+        }
+      },
+      "inputConditions": {
+        "inputBy": null,
+        "areaCode": "0",
+        "timestamp": "20200402 08:27:41:043",
+        "modified": "false"
+      },
+      "contractComponents": {
+        "contractComponent": {
+          "typologyId": "2",
+          "tradeReference": {
+            "href": "#trade_12416501"
+          }
+        }
+      },
+      "contractBody": {
+        "fxSwap": {
+          "fxSwapNominalsLink": "linked"
+        }
+      }
+    }
+  },
+  "trades": {
+    "trade": {
+      "id": "trade_12416501",
+      "mefClass": "mxContractITRADE",
+      "mefClassInstanceType": "92.000000",
+      "businessObjectId": {
+        "mefClass": "mxContractITRADE",
+        "mefClassInstanceType": "92",
+        "identifier": "12416501",
+        "baseIdentifier": "12416501",
+        "versionIdentifier": {
+          "versionRevision": {
+            "versionNumber": "1",
+            "versionDateAndTime": {
+              "date": "00000000"
+            }
+          }
+        },
+        "primarySystem": "MX"
+      },
+      "parties": {
+        "party": {
+          "id": "NORDLB_HANNOVER",
+          "partyName": "NORDLB HANNOVER",
+          "partyFullName": "NORDLB HANNOVER",
+          "partyCode": "NORDLB HANNOVER22"
+        }
+      },
+      "portfolios": {
+        "portfolio": {
+          "id": "_56CC_BAS_RT_T_S",
+          "portfolioLabel": "56CC_BAS_RT_T_S"
+        }
+      },
+      "tradeHeader": {
+        "tradeDate": "20210706",
+        "tradeCategory": {
+          "tradeDestination": "internal",
+          "tradeFamily": "CURR",
+          "tradeGroup": "FXD",
+          "tradeType": "SWLEG",
+          "typology": "Spot",
+          "mainTypologyPath": "/Typologies/FX/Spot",
+          "usage": null,
+          "collateralAgreementCategory": null,
+          "pricingCounterparty": null
+        },
+        "tradeSource": {
+          "tradeOriginId": "12416501",
+          "replacementDate": "20200402",
+          "originPublishingSystemID": "12416501"
+        },
+        "tradeViews": {
+          "tradeView": {
+            "partyReference": {
+              "href": "#NORDLB_HANNOVER",
+              "portfolioReference": {
+                "href": "#_56CC_BAS_RT_T_S"
+              }
+            },
+            "userName": "BACHHUBER",
+            "accountingSection": "Trading",
+            "entity": "HANNOVER",
+            "legalEntity": "NLB_HAJ",
+            "tradeId": {
+              "tradeGlobalId": "NBS_12416500",
+              "hostingSystem": "MX"
+            }
+          }
+        },
+        "tradeUserDefinedFields": {
+          "userDefinedField": {
+            "fieldLabel": "WPHG",
+            "fieldId": "12733",
+            "fieldIndex": "89",
+            "fieldValue": "1",
+            "fieldType": "character"
+          }
+        },
+        "tradeFees": null,
+        "tradeAgreements": {
+          "paymentNetting": "false"
+        },
+        "contractReference": {
+          "mefClass": "mxContractFxISWAP",
+          "businessObjectId": {
+            "mefClass": "mxContractFxISWAP",
+            "mefClassInstanceType": "0",
+            "identifier": "11301249",
+            "primarySystem": "MX"
+          },
+          "contractId": {
+            "internalId": "11301249",
+            "rootContract": "11301249"
+          }
+        },
+        "tradeProcessing": {
+          "nonUnwoundRatio": "1.",
+          "remainingLiveQuantity": "2000000."
+        },
+        "tradeAccountingInfo": {
+          "tradeHedging": {
+            "hedgedTransactionSold": "false"
+          }
+        }
+      },
+      "tradeBody": {
+        "forexSwapLeg": {
+          "currency1Flow": {
+            "payerPartyReference": {
+              "href": "#NORDLB_HANNOVER",
+              "portfolioReference": {
+                "href": "#_52FWCAPM_FX_T_S"
+              }
+            },
+            "receiverPartyReference": {
+              "href": "#NORDLB_HANNOVER",
+              "portfolioReference": {
+                "href": "#_56CC_BAS_RT_T_S"
+              }
+            },
+            "date": "20200406",
+            "currency": "USD",
+            "amount": "2000000"
+          },
+          "currency2Flow": {
+            "payerPartyReference": {
+              "href": "#NORDLB_HANNOVER",
+              "portfolioReference": {
+                "href": "#_56CC_BAS_RT_T_S"
+              }
+            },
+            "receiverPartyReference": {
+              "href": "#NORDLB_HANNOVER",
+              "portfolioReference": {
+                "href": "#_52FWCAPM_FX_T_S"
+              }
+            },
+            "date": "20200406",
+            "currency": "EUR",
+            "amount": "1831389.46603093"
+          },
+          "exchangeRate": {
+            "fxQuotation": {
+              "currency1": "USD",
+              "currency2": "EUR",
+              "fxQuoteBasis": "currency1PerCurrency2",
+              "formFactor": "1"
+            },
+            "rate": "1.092067"
+          },
+          "fxAsianAverageRounding": "Disabled",
+          "forwardDelivery": "spot",
+          "spotDate": "20200406",
+          "fxSpot": {
+            "fxQuotation": {
+              "currency1": "USD",
+              "currency2": "EUR",
+              "fxQuoteBasis": "currency1PerCurrency2",
+              "formFactor": "1"
+            },
+            "rate": "1.092067"
+          },
+          "fxQuantitiesInputMode": "oneQuantity",
+          "riskSection": "EUR/USD"
+        }
+      },
+      "tradeInputConditions": {
+        "inputBy": {
+          "userName": "RIED",
+          "code": "104211",
+          "partyReference": {
+            "href": "#NORDLB_HANNOVER",
+            "portfolioReference": {
+              "href": "#_52FWCAPM_FX_T_S"
+            }
+          }
+        },
+        "computerDate": "20200402",
+        "validityDate": "20200402",
+        "computerTime": "10:26:43",
+        "areaCode": "0",
+        "lateTrading": "earlyTrading",
+        "timestamp": "20200402 08:27:41:043",
+        "modified": "false",
+        "initialData": {
+          "userDefinedField": {
+            "fieldLabel": "9 Conversion forward",
+            "fieldIndex": "0",
+            "fieldValue": "1.",
+            "fieldType": "numeric"
+          }
+        },
+        "executionTimestamp": "2020-04-02T08:27:41.043"
+      },
+      "tradeStatus": {
+        "physicalStatus": "dead"
+      },
+      "tradeVersions": {
+        "tradeVersion": {
+          "businessObjectId": {
+            "identifier": "12416501",
+            "baseIdentifier": "12416501",
+            "versionIdentifier": {
+              "versionRevision": {
+                "versionNumber": "1",
+                "versionDateAndTime": {
+                  "date": "00000000"
+                }
+              }
+            },
+            "primarySystem": "MX"
+          },
+          "contractEventReference": {
+            "mefClass": "",
+            "contractEventId": {
+              "internalId": "0"
+            }
+          },
+          "eventVersion": "0",
+          "contractEventOriginReference": {
+            "mefClass": "",
+            "contractEventId": {
+              "internalId": "0",
+              "businessObjectId": {
+                "versionIdentifier": {
+                  "versionRevision": {
+                    "versionNumber": "1",
+                    "versionDateAndTime": {
+                      "date": "00000000"
+                    }
+                  }
+                },
+                "primarySystem": "MX"
+              }
+            }
+          },
+          "action": "INSERT",
+          "date": "20200402",
+          "validityDate": "20200402",
+          "timestamp": "2020/04/02 08:27:41.043",
+          "lateTrading": "N",
+          "tradePurpose": "MfBJy44236",
+          "tradePurposeDisplayedLabel": "Contract",
+          "tradePurposeId": "0",
+          "stpStatuses": {
+            "stpStatus": {
+              "stpStatusKey": "STP_STATUS4",
+              "stpStatusValue": null
+            }
+          },
+          "isActive": "true"
+        }
+      }
+    }
+  },
+  "events": {
+    "mainEvent": {
+      "action": "insertion",
+      "object": {
+        "href": "#contract_11301249",
+        "objectNature": "contract"
+      },
+      "inputBy": {
+        "userName": "MUREXBO",
+        "group": "BO",
+        "code": "Technik"
+      }
+    }
+  }
+}

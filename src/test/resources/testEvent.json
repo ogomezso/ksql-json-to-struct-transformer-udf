@@ -1,0 +1,34 @@
+{
+  "string": "string",
+  "boolean": true,
+  "integer": 1,
+  "float": 0.55,
+  "objectsArray": {
+    "objects": [
+      {
+        "objectStringKey": "String",
+        "objectBooleanKey": true,
+        "objectIntegerKey": 1,
+        "objectFloatKey": 0.55
+      },
+      {
+        "objectStringKey": "String",
+        "objectBooleanKey": true,
+        "objectIntegerKey": 1,
+        "objectFloatKey": 0.55
+      },
+      {
+        "objectStringKey": "String",
+        "objectBooleanKey": true,
+        "objectIntegerKey": 1,
+        "objectFloatKey": 0.55
+      }
+    ]
+  },
+  "stringValuesArray": [ "id", "5001", "None"],
+  "booleanValuesArray": [ true, false],
+  "integerValuesArray": [1,2,3],
+  "floatValuesArray": [0.55,0.12,0.04],
+  "" : "noKeyValue",
+  "nullvalueKey": null
+}
